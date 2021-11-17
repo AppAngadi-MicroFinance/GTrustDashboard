@@ -1,0 +1,109 @@
+﻿<Page x:Class="GTrustDashBoard.Views.DashBoard"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GTrustDashBoard.Views"
+      mc:Ignorable="d"
+      Title="DashBoard" Background="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="85*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="1" Text="DashBoard" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="30" Foreground="Gray" FontWeight="SemiBold"></TextBlock>
+        <ScrollViewer Grid.Row="1" Grid.Column="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Hidden">
+            <WrapPanel Orientation="Horizontal" MaxWidth="1300">
+                <Border Height="200" Width="300" Background="LightBlue" Margin="10" CornerRadius="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="9*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40*"/>
+                            <RowDefinition Height="50*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Enroll" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Seigu UI" FontWeight="SemiBold"></TextBlock>
+                        <TextBlock Text="120" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="SemiBold"></TextBlock>
+                    </Grid>
+                </Border>
+                <Border Height="200" Width="300" Background="Orange" Margin="10" CornerRadius="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="9*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40*"/>
+                            <RowDefinition Height="50*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Approve" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Seigu UI" FontWeight="SemiBold"></TextBlock>
+                        <TextBlock Text="60" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="SemiBold"></TextBlock>
+                    </Grid>
+                </Border>
+                <Border Height="200" Width="300" Background="IndianRed" Margin="10" CornerRadius="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="9*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40*"/>
+                            <RowDefinition Height="50*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Pending" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Seigu UI" FontWeight="SemiBold"></TextBlock>
+                        <TextBlock Text="60" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="SemiBold"></TextBlock>
+                    </Grid>
+                </Border>
+                <Border Height="200" Width="300" Background="LightGray" Margin="10" CornerRadius="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="9*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40*"/>
+                            <RowDefinition Height="50*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Collection" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Seigu UI" FontWeight="SemiBold"></TextBlock>
+                        <TextBlock Text="Rs : 12000/-" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="SemiBold"></TextBlock>
+                    </Grid>
+                </Border>
+                <Border Height="200" Width="300" Background="Blue" Margin="10" CornerRadius="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="9*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40*"/>
+                            <RowDefinition Height="50*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontFamily="Seigu UI" FontWeight="SemiBold"></TextBlock>
+                        <TextBlock Text="More.." Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="SemiBold"></TextBlock>
+                    </Grid>
+                </Border>
+                
+            </WrapPanel>
+        </ScrollViewer>
+       
+    </Grid>
+</Page>
